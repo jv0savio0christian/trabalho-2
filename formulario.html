@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="icon" href="imagem/IMG.jpg">
+    <style>
+        body{
+            text-align: center;
+        }
+        h1{
+            color: green;
+            border: 5px solid green;
+            height: auto;
+            width: auto;
+            min-width: 100px;
+            max-width: 900px;
+            min-height: 50px;
+            max-height: 100px;
+            overflow: auto;
+            max-width: 50%; 
+            text-align: center;
+            margin: 20px auto; 
+        }
+        form{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sugestões e reclamações</h1>
+    <br>
+    <form>
+        Nome Completo:<br>
+        <input type="text" name="nome completo"><br>
+        <br>
+        Email:<br>
+        <input type="email" name="email"><br>
+        <br>
+        Telefone:<br>
+        <input type="text" name="telefone"><br>
+        <br>
+        Qual o problema que você quer nos informar?<br>
+        <textarea id="texto" name="texto" rows="10" cols="50">
+
+        </textarea><br>
+        <br>
+        Adicionar arquivo:<br>
+        <br>
+        <input type="file" name="adicionar arquivo"><br>
+        <br><br>
+        <input type="button" value="Enviar">
+    </form>
+</body>
+</html>
